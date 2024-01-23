@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -13,6 +14,14 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Software Engineer" ];
   const period = 2000;
+
+  
+  const cvUrl = 'https://drive.google.com/file/d/1PFr2vaMp5s6E762XP0vYiq7punrBRGJy/view?usp=drive_link';
+
+  const openCV = () => {
+    // Open the CV link in a new tab/window
+    window.open(cvUrl, '_blank');
+  };
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -62,7 +71,8 @@ export const Banner = () => {
                     in building and maintaining responsive websites and applications. 
                     Proficient in a wide range of technologies. Reach out if you'd like to learn more!
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={openCV} className="cvbtn">View CV<ArrowRightCircle size={25} /></button>
+                  
               </div>}
             </TrackVisibility>
           </Col>

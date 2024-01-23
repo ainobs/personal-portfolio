@@ -304,6 +304,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 250px;
 
 }
+.cvbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff; /* Text color when not hovered */
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.cvbtn:hover {
+  background-color: #fff;
+  color: #000; /* Text color on hover */
+}
 
 /************ Skills Css ************/
 .skill {
@@ -545,7 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 100px 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
