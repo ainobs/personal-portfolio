@@ -33,49 +33,46 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx">
                         <h2>Skills</h2>
+                        <div className="p-text">
                         <p>
-                          I bring a versatile set of skills to the table, allowing me to navigate <br></br>
+                          I bring a versatile set of skills to the table, allowing me to navigate 
                           challenges and contribute meaningfully to projects. My proficiency spans:
-                          <br></br> 
+                          
                        
                         </p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        </div>
+                       
+                        <div className="flex-ctn">
                             <div className="item">
-                                <img src={skill1} alt="Image" />
-                                <h5>React</h5>
+                                <img src={skill1} alt="Image" className="img" />
+                                
                             </div>
                             <div className="item">
-                                <img src={node} alt="Image" />
-                                <h5>Node</h5>
+                                <img src={node} alt="Image" className="img"/>
+                                
                             </div>
                             <div className="item">
-                                <img src={css} alt="Image" />
-                                <h5>CSS</h5>
+                                <img src={css} alt="Image" className="img"/>
+                                
                             </div>
                             <div className="item">
-                                <img src={mysql} alt="Image" />
-                                <h5>MySQL</h5>
+                                <img src={mysql} alt="Image" className="img"/>
+                                
                             </div>
                             <div className="item">
-                                <img src={java} alt="Image" />
-                                <h5>Java</h5>
+                                <img src={java} alt="Image" className="img"/>
+                                
                             </div>
                             <div className="item">
-                                <img src={powerbi} alt="Image" />
-                                <h5>PowerBI</h5>
+                                <img src={powerbi} alt="Image" className="img"/>
+                                
                             </div>
                            
-                        </Carousel>
+                      </div>
                     </div>
-                </div>
-            </div>
-        </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        {/* <img className="background-image-left" src={colorSharp} alt="Image" /> */}
     </section>
   )
 }

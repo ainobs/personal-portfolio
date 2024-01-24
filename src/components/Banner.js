@@ -16,7 +16,7 @@ export const Banner = () => {
   const period = 2000;
 
   
-  const cvUrl = 'https://drive.google.com/file/d/1PFr2vaMp5s6E762XP0vYiq7punrBRGJy/view?usp=drive_link';
+  const cvUrl = 'https://drive.google.com/file/d/1PFr2vaMp5s6E762XP0vYiq7punrBRGJy/view?usp=sharing';
 
   const openCV = () => {
     // Open the CV link in a new tab/window
