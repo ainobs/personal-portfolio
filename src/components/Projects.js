@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -68,7 +69,7 @@ export const Projects = () => {
     {
       title: "Weather/GPS app",
       description: "Android Development",
-      imgUrl: projImg5,
+      imgUrl: projImg7,
       url: "https://github.com/ainobs/VikWeather"
     }
   ]
