@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+//import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -52,9 +52,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a target="_blank" href="https://www.linkedin.com/in/victor-aienobe-bb365b196/"><img src={navIcon1} alt="linkedIn logo" /></a>
-                <a target="_blank" href="https://github.com/ainobs"><img src={navIcon2} alt="github logo" /></a>
-                <a target="_blank" href="https://www.instagram.com/ainobs"><img src={navIcon3} alt="instagram logo" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/victor-aienobe-bb365b196/"><img src={navIcon1} alt="linkedIn logo" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/ainobs"><img src={navIcon2} alt="github logo" /></a>
+                <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ainobs"><img src={navIcon3} alt="instagram logo" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

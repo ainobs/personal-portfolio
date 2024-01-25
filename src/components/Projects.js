@@ -7,6 +7,7 @@ import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -33,10 +34,10 @@ export const Projects = () => {
       url: "https://github.com/ainobs"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      url: "https://edukoya-web.netlify.app/"
+      title: "Fashion store",
+      description: "Frontend Development",
+      imgUrl: projImg8,
+      url: "https://master--fastidious-croissant-c02404.netlify.app/"
     },
     {
       title: "Business Startup",
@@ -117,8 +118,8 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>
-                        Developed a power bi dashboard to visualise sales data and aid business decisions of a superstore
-                        which  was a deliverable for my data visualisation coursework.
+                        Developed a power BI dashboard to visualise sales data and aid business decisions of a superstore
+                        which  was a deliverable for my data visualisation coursework. Also, created a zoommable sunburst chart using D3.js in visualising store records.
                       </p>
                       <Row>
                         {
@@ -160,7 +161,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="background"></img>
     </section>
   )
 }
