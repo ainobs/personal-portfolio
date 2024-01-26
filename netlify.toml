@@ -1,0 +1,11 @@
+# netlify.toml
+
+[build]
+  command = "npm run build" # Adjust based on your frontend build command
+  publish = "build"         # Adjust based on your frontend build output directory
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://localhost:5000/:splat"
+  status = 200
+  force = true
