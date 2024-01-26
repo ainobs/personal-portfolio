@@ -1,8 +1,7 @@
-# netlify.toml
 
 [build]
-  command = "CI=npm run build" # Adjust based on your frontend build command
-  publish = "build"         # Adjust based on your frontend build output directory
+  command = "CI= npm run build"
+  publish = "build" 
 
 [[redirects]]
   from = "/api/*"
