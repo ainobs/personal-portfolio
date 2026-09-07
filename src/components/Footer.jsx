@@ -6,6 +6,8 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="footer">
       <Container>
@@ -21,7 +23,7 @@ export const Footer = () => {
               <a target="_blank" rel="noreferrer" href="https://github.com/ainobs"><img src={navIcon2} alt="github Icon" /></a>
               <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ainobs"><img src={navIcon3} alt="instagram Icon" /></a>
             </div>
-            <p>Copyright 2024. All Rights Reserved</p>
+            <p>Copyright {currentYear}. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
